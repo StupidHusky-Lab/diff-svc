@@ -4,6 +4,7 @@ Singing Voice Conversion via diffusion model
 
 
 
+
 ## 注意事项
 
 > 本仓库为 diff-svc fork 重构版，新增多说话人、辅助脚本、新 hubert 等，请自行评估并承担风险
@@ -24,11 +25,13 @@ Singing Voice Conversion via diffusion model
 
 
 
+
 ## 训练
 
 详细训练过程和各种参数介绍请查看： [推理与训练说明](./doc/train_and_inference.markdown) 
 
 想追求更好的训练效果请查看：[中文 hubert 与特化教程](./doc/advanced_skills.markdown) 
+
 
 
 
@@ -38,9 +41,11 @@ Singing Voice Conversion via diffusion model
 
 
 
+
 ## 工具 
 
 音频切片参考 [audio-slicer](https://github.com/openvpi/audio-slicer)
+
 
 
 
@@ -49,6 +54,7 @@ Singing Voice Conversion via diffusion model
 项目基于 [diffsinger](https://github.com/MoonInTheRiver/DiffSinger)、[diffsinger (openvpi 维护版)](https://github.com/openvpi/DiffSinger)、[soft-vc](https://github.com/bshall/soft-vc) 开发
 
 同时也十分感谢 openvpi 成员在开发训练过程中给予的帮助。
+
 
 
 
@@ -171,6 +177,7 @@ Singing Voice Conversion via diffusion model
 > 2022.10.22
 >
 > 完成对 opencpop 数据集的训练并创建仓库
+
 
 
 
