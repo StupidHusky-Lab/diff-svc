@@ -1,0 +1,42 @@
+base_config:
+- configs/base.yaml
+binary_data_dir: data/binary/svc_ms
+choose_test_manually: false
+config_path: configs/config_ms.yaml
+datasets:
+- testfox
+- jishuang
+decay_steps: 40000
+hubert_path: checkpoints/hubert/hubert_soft.pt
+lr: 0.0005
+max_sentences: 32
+max_tokens: 80000
+num_ckpt_keep: 10
+num_spk: 2
+raw_data_dir:
+- data/raw/testfox
+- data/raw/jishuang
+residual_channels: 512
+residual_layers: 20
+speakers:
+- testfox
+- jishuang
+spec_max:
+- 0.0
+spec_min:
+- -5.0
+test_prefixes:
+- zhibin-3298
+- zhibin-2230
+- zhibin-3279
+- zhibin-3163
+- luoxi-283
+- luoxi-984
+- luoxi-982
+use_amp: false
+use_cn_hubert: false
+use_crepe: false
+use_energy_embed: false
+use_spk_id: true
+val_check_interval: 2000
+work_dir: checkpoints/svc_ms

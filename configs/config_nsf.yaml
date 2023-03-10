@@ -1,0 +1,30 @@
+base_config:
+- configs/base.yaml
+binary_data_dir: data/binary/testfox
+choose_test_manually: false
+config_path: configs/config_nsf.yaml
+datasets:
+- testfox
+decay_steps: 40000
+hubert_path: checkpoints/hubert/hubert_soft.pt
+lr: 0.0005
+max_sentences: 32
+max_tokens: 80000
+num_ckpt_keep: 10
+num_spk: 1
+num_test_samples: 0
+raw_data_dir: data/raw/testfox
+residual_channels: 512
+residual_layers: 20
+spec_max:
+- 0.0
+spec_min:
+- -5.0
+test_prefixes:
+- test
+use_amp: false
+use_cn_hubert: false
+use_crepe: false
+use_energy_embed: false
+val_check_interval: 2000
+work_dir: checkpoints/testfox

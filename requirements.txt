@@ -1,0 +1,18 @@
+setuptools==59.5.0
+onnxruntime
+torchcrepe
+matplotlib
+praat-parselmouth==0.4.1
+scikit-image
+pyyaml
+ipython
+ipykernel
+librosa==0.8.0
+pyloudnorm
+resemblyzer
+torchmetrics==0.5.0
+pytorch_lightning==1.3.3
+numpy==1.23.0
+# pip3 install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio==0.10.0+cu113 --extra-index-url https://download.pytorch.org/whl/cu113
+
+# fairseq
